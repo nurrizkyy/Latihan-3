@@ -28,7 +28,7 @@ class ProgramController extends Controller
     public function create()
     {
         $edulevel = Edulevel::all();
-        return view('program.index', ['edulevel' => $edulevel]);
+        return view('program.create', ['edulevel' => $edulevel]);
     }
 
     /**
